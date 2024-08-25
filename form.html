@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Register Stuff worshop</title>
+        <style>
+            body{
+                background-color: darksalmon;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            div{
+                margin-top: 20px;
+            }
+            input{
+                width: 500px; height: 30px;
+            }
+            select{
+                width: 500px; height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Register for Stuff workshop</h1>
+        <p>Please enter your information and selection for Stuff workshop!</p>
+        <form>
+            <div>
+                <label for="name">1, Name:</label>
+                <br>
+                <input type="text" id="name" placeholder="Enter your full name." required>
+            </div>
+            <div>
+                <label for="email">2, Email:</label>
+                <br>
+                <input type="text" id="email" placeholder="example@gmail.com">
+            </div>
+            <div>
+                <label for="birthday">3, Birthday:</label>
+                <br>
+                <input type="date" id="birthday" placeholder="mm/dd/yyyy">
+            </div>
+            <div>
+                <label for="location">4, Select workshop place:</label>
+                <br>
+                <select required>
+                    <option selected>Hoang Nong Farm - Thai Nguyen</option>
+                    <option>Dong Do Lake - Ha Noi</option>
+                    <option>CheoBeoz Homestay - Ninh Binh</option>
+                </select>
+            </div>
+            <div>
+                <label for="date">5, Select workshop date:</label>
+                <br>
+                <select required>
+                    <option selected>07~08/09/2024</option>
+                    <option>11~12/09/2024</option>
+                    <option>18~19/09/2024</option>
+                </select>
+            </div>
+            <br/>
+            <button>Submit</button>
+        </form>
+</body>
+</html>
