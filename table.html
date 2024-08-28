@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table excercise</title>
+        <style>
+            body{
+                 margin-left: 10px;
+                 font-family: Arial, Helvetica, sans-serif;
+                 font-size: medium;
+            }
+            table{
+                border-spacing: 0;
+                border-collapse: collapse;
+                width: 700px;
+            }
+
+            thead, tfoot {
+                background-color: chocolate;
+                font-size: large;
+            }
+
+            th, td {
+                border: 1px solid black;
+                padding: 10px;
+                text-align: center;
+                vertical-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>STUFF WORKSHOP EXPENSES</h1>
+            <P> * List the estimated costs for the workshop!</P>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>NO</th>
+                    <th>EXPENSE ITEM</th>
+                    <th>AMOUNT</th>
+                    <th>NOTE</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                <td>1</td>
+                <td>Di chuyển</td>
+                <td>VND 100000</td>
+                <td>Thuê xe ô tô</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Homestay</td>
+                <td>VND 200000</td>
+                <td>Ở Homestay Be Yourself</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Đồ ăn</td>
+                <td>VND 3000000</td>
+                <td>Mua đồ ăn vặt & Đặt homestay nấu</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Đồ uống</td>
+                <td>VND 1000000</td>
+                <td>Mua đồ uống mang đi</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Khác</td>
+                <td>VND 1000000</td>
+                <td>Các chi phí phát sinh khác</td>
+            </tr>
+
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                    <td colspan="2"><b>Tổng cộng</b></td>
+                    <td><b>VND 10000000</b></td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
