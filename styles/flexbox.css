@@ -1,0 +1,43 @@
+*{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+#header {
+    display: flex; 
+    /* Khi minh không set display là flex thì không thể căn thẻ p về giữa được*/
+    background-color: rgb(5, 80, 99);
+    height: 200px;
+    /* Mình muốn căn cho phần này chiếm 30% màn hình, nhưng thử vs tỉ lệ 30% không được */
+    margin-bottom: 20px;
+}
+
+#header p{
+    margin: auto;
+}
+
+#container{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    height: 300px;
+    width: 100%;
+}
+
+#container div{
+    text-align: center;
+}
+
+#box1{
+    width: 20%;
+}
+
+#box2{
+    width: 20%;
+}
+
+#box3{
+    width: 60%;
+}

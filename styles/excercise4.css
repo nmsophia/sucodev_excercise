@@ -85,7 +85,6 @@ label, legend {
     font-weight: bolder;
 }
 
-
 button{
     margin-bottom: 20px;
 }
@@ -103,4 +102,4 @@ a:hover{
 
 .border-right{
     border-right: 1px solid black;
-}
+}  
