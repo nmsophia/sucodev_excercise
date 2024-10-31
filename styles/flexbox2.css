@@ -1,0 +1,54 @@
+/* Làm thế nào để căn phần text về giữa */
+
+header{
+    background-color:antiquewhite;
+    text-align: center;
+    align-items: center;
+    height: 200px;
+}
+
+nav {
+    background-color: aqua;
+    text-align: center;
+    height: 200px;
+    margin-top: 20px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 20px;
+}
+
+#main-aside {
+    background-color: blue;
+    margin-right: 10px;
+    text-align: center;
+    width: 30%;
+    height: 100%;
+}
+
+#main-content{
+    width: 70%;
+    height: 100%;
+    align-items: center;
+}
+
+/* Làm thế nào căn chỉnh phần content & section có height bằng nhau và giãn cách nhau*/
+#content{
+    background-color: blueviolet;
+    height: 50%;
+}
+
+#section{
+    background-color: brown;
+    height: 50%;
+}
+
+footer{
+    background-color: beige;
+    text-align: center;
+    height: 200px;
+    margin-top: 20px;
+}
